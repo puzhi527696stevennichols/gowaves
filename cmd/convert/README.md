@@ -45,3 +45,5 @@ Or both:
 ```bash
 convert -private-key <private key Base58> -to-json < ~/Temp/convert/transfer-unsigned.json | curl -X POST -H 'accept: application/json' -H 'Content-Type: application/json' --data-binary @- 'https://nodes-testnet.wavesnodes.com/transactions/broadcast'
 ```
+
+<!-- Auto-update: 2025-10-16T12:12:50.620967 -->
